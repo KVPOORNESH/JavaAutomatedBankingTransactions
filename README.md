@@ -2,60 +2,61 @@
 
 Fast Banking Transaction System
 Overview
-This is a Java console application for fast banking transactions. It helps users create accounts, deposit and withdraw money, transfer funds, and view account details. It uses Object-Oriented Programming (OOP), flow control, and exception handling for safe, quick transactions.​
-
-Problem Statement
-Banking transactions can be slow and confusing. This project automates common banking actions and improves transaction speed for customers.​
+This project is a console-based Java application designed to automate and accelerate common banking transactions. Its goal is to solve the problem of slow and error-prone manual banking by providing fast, reliable, and user-friendly transaction processing.
 
 Features
-Create new bank accounts
+Account creation and management
 
 Deposit money
 
 Withdraw money
 
-Transfer money between accounts
+Transfer funds between accounts
 
-Show transaction speed
+View account details
 
-Display account details
+Error handling for invalid transactions and insufficient balance
 
-Error handling for failed transactions​
+Simple interactive menu
 
-Concepts Used
-Classes and Objects for accounts and transactions
+Technologies Used
+Java (JDK 8+)
 
-Methods for deposits, withdrawals, and transfers
+Eclipse or IntelliJ IDEA (or any Java IDE)
 
-Synchronized methods for safe multithreaded actions
+GitHub for version control
 
-If/else logic for decision-making
+Installation & Run Steps
+Clone this repository:
+git clone https://github.com/your-username/FastBankingTransactionSystem.git
 
-Exception handling for invalid actions
+Open the project in your IDE
 
-How To Run
-Clone or download the repository.
+Compile and run FastBankApp.java
 
-Open project in your Java IDE (like Eclipse or IntelliJ IDEA).
+Follow the on-screen instructions in the menu
 
-Run FastBankApp.java.
+Instructions for Testing
+Use different actions in the menu (deposit, withdraw, transfer, etc.)
 
-Follow the on-screen menu to perform banking transactions.​
+Try edge cases (overdraft attempts, wrong account numbers)
 
-Example
-text
-1. Deposit
-2. Withdraw
-3. Transfer
-4. Show All Accounts
-5. Exit
-Choose an option and enter account numbers and amounts as shown on the screen.
+Test with multiple accounts and confirm balance updates
 
-Project Structure
-Account.java: Defines account properties and methods.
 
-Transaction.java: Handles deposits, withdrawals, and transfers.
 
-Bank.java: Manages all accounts.
+File Structure
+No	File Name	Details
+1	Account.java	Account attributes/methods
+2	Transaction.java	Deposit/withdraw/transfer
+3	Bank.java	Account management
+4	FastBankApp.java	Main app, menu & workflow
+Project Status
+Completed and tested for use with console inputs.
 
+Credits
+Venkatraman Poornesh K (24BSA10216)
+
+License
+For academic and educational use only.
 FastBankApp.java: Provides user menu and controls.
